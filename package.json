@@ -1,0 +1,26 @@
+{
+  "name": "@udock/react-plugin-auto-router",
+  "version": "2.0.0",
+  "description": "@udock/react-plugin-auto-router",
+  "main": "index.jsx",
+  "directories": {
+    "lib": "lib",
+    "template": "template"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "author": "vaniship@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@loadable/component": "^5.13.1"
+  },
+  "devDependencies": {
+    "@types/hash-sum": "^1.0.0",
+    "@types/lodash": "^4.14.158",
+    "@types/pify": "^3.0.2",
+    "@types/serialize-javascript": "^4.0.0",
+    "@types/webpack": "^4.41.21",
+    "hash-sum": "^2.0.0"
+  }
+}
